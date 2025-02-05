@@ -1,5 +1,7 @@
-Vogelerkennungs-Quiz
+Vogelerkennungs-Quiz  
+
 Überblick
+
 Das Vogelerkennungs-Quiz ist eine interaktive Webanwendung, die es den Benutzern ermöglicht, ihr Wissen über verschiedene Vogelarten zu testen. Die Anwendung zieht Daten von der eBird-API, um Informationen zu aktuellen Vogelbeobachtungen anzuzeigen und stellt den Benutzern zufällige Quizfragen zur Identifizierung von Vögeln. Das Quiz ist länderspezifisch, sodass Benutzer ein Land auswählen können, um Vogelarten aus diesem Land zu erraten.
 
 Features
