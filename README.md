@@ -43,17 +43,23 @@ Struktur
 
 HTML:
 Grundstruktur für die Website und die Anzeige der Quizfragen.
+
 CSS:
 Responsives Design und Styles für die Quizansicht, Karte und Modals.
+
 JavaScript (Svelte): 
 Logik zur Auswahl der Vogelarten, zum Abrufen von Vogelbeobachtungsdaten und zur Verwaltung des Quiz.
+
 Dateien
 index.html:
 Die Haupt-HTML-Datei der Anwendung.
+
 app.svelte:
 Die Svelte-Komponente für das Quiz und die Benutzeroberfläche.
+
 styles.css:
 Alle relevanten Styles für das Layout und die Benutzererfahrung.
+
 script.js:
 Enthält die Logik zur Verwaltung des Quiz, das Abrufen von Vogelbeobachtungsdaten und die Interaktionen.
 
