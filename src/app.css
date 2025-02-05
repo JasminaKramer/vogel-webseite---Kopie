@@ -1,0 +1,111 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("src/images/full.picture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* Helles, beruhigendes Blau für den Hintergrund */
+    color: #333;
+    /* Dunkler Text für bessere Lesbarkeit */
+    line-height: 1.6;
+}
+
+/* Header-Stile */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #2c3e50;
+    /* Dunkles Blau für den Header */
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sanfter Schatten für mehr Tiefe */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #1abc9c;
+    /* Helle Akzentfarbe beim Hover */
+}
+
+/* Main Content Styles */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Bildschatten für mehr Tiefe */
+}
+
+
+
+
+
+/* Footer-Stile */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 0.9rem;
+}
+
+/* Kleine Bildübersicht für kleinere Bildschirme */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+
+}
