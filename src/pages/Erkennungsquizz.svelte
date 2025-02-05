@@ -29,7 +29,7 @@
         { name: "USA", lat: 37.0902, lng: -95.7129, id: "US" },
     ];
 
-    let selectedCountry = countries[0]; // Standardmäßig Deutschland
+    let selectedCountry = countries[0]; // Standardmäßig immer Deutschland
     let askedBirds = []; // Array, um bereits gestellte Vögel zu speichern
 
     async function fetchBirdData() {
