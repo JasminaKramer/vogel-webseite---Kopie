@@ -8,11 +8,15 @@ Features
 
 Vogelerkennungs-Quiz:
 Benutzer sehen ein Bild eines Vogels und wählen aus vier Antwortmöglichkeiten die richtige Vogelart aus.
+
 Länderauswahl:
 Der Benutzer kann ein Land auswählen, um Fragen basierend auf Vogelarten dieses Landes zu beantworten.
+
 Punktestand:
 Es wird ein Punktestand geführt, basierend auf den richtigen Antworten der Benutzer.
+
 Interaktive Karte: Eine Karte wird angezeigt, auf der Benutzer Länder auswählen können, um das Quiz zu starten.
+
 Technologien:
 
 eBird API für Vogelbeobachtungsdaten
